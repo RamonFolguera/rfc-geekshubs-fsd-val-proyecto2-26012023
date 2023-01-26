@@ -22,12 +22,13 @@ body video {
 
 }
 
-.col-12 {
-
-    height: 800px;
-}
 
 .containerfluid {
 
     border: 1px black solid;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
 }

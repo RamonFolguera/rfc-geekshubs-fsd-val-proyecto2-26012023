@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/65024854fe.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>Carta Restaurante Digital</title>
 </head>
@@ -14,32 +15,48 @@
 <!-- Bloque del navbar. Collapsa en sm. -->
 
 
-<div class="overlay"></div>
 <!-- Este elemento video creará el background video del header -->
-   
         <video playsinline autoplay muted loop id="myVideo">
             <source src="./videos/Food_Reel_2020.mp4" type="video/mp4">
-          </video>
-     
+        </video>
+
 <!-- Contenido del header -->
 <!-- Primero el navbar -->
-        <nav class="mt-5 navbar navbar-expand-sm ">
-            <div class="container-fluid">
-                <ul class="navbar-nav ">
+        <nav class="container-fluid navbar navbar-expand-sm ">
+           
+                <ul class="col-12 col-sm-2 col-lg-4 navbar-nav text-lg-start text-sm-start text-center ms-5 pt-5">
                     <li class="nav-item">
-                        <a href="" class="nav-link text-white">Link 1</a>
+                        <a href="" class="nav-link text-white">Restaurantes y reservas</a>
+                    </li>
+                </ul>
+                <ul class="col-12 col-sm-8 col-lg-6 class navbar-nav text-lg-start text-sm-start text-center pt-5">
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-white">Restaurantes y reservas</a>
                     </li>
                 
             
                     <li class="nav-item">
-                        <a href="" class="nav-link text-white">Link 1</a>
+                        <a href="" class="nav-link text-white">A domicilio</a>
                     </li>
             
                     <li class="nav-item">
-                        <a href="" class="nav-link text-white">Link 1</a>
+                        <a href="" class="nav-link text-white">Esencia SushiSamba</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-white">Mediterráneo Bonito</a>
                     </li>
                 </ul>
-            </div>
+                <ul class="col-12 col-sm-2 col-lg-1 navbar-nav text-lg-end text-center pt-5 d-flex justify-content-end">
+                    <li class="dropdown nav-item">
+                        <a href="" class="nav-link text-white dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-globe"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Español</a></li>
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            
         </nav>
   
 <!-- Carousel -->
