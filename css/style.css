@@ -1,6 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    background-image: url(../img/annie-spratt-DJUZjUYsLwQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+body video {
+    min-width: 100%;
+    min-height: 100%;
+    
+    
+
+
+}
+
 .col-12 {
 
-    height: 200px;
+    height: 800px;
 }
 
 .containerfluid {
