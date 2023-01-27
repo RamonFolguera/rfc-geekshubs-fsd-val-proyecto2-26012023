@@ -1,31 +1,38 @@
+/* Paleta de colores a utilizar */
+
+:root {
+    --dark-blue: #344A57;
+    --dark-olive: #6B705C;
+    --olive: #A5A58D;
+    --light-olive: #B7B7A4;
+    --dark-beige: #CB997E;
+    --beige: #DDBEA9;
+    --light-beige: #FFE8D6;
+    --white: #ffffff;
+}
+
+/* Configuración para que todos los elementos incluyan el borde y el padding en sus dimensiones*/
 * {
     box-sizing: border-box;
 }
 
-
-
-
 body {
-    background-image: url(../img/annie-spratt-DJUZjUYsLwQ-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-color: var(--light-olive);
 }
 
+.brand-name {
+    font-family: 'Flama Bold', sans-serif;
+    font-size: 2rem;
+}
 
 body video {
     min-width: 100%;
     min-height: 100%;
-    
-    
-
-
 }
 
-
-.containerfluid {
-
-    border: 1px black solid;
+/* Configuración de misma altura para todos los contenedores.*/
+.section {
+    height: 800px;
 }
 
 .navbar {
