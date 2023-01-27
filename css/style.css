@@ -30,12 +30,79 @@ body video {
     min-height: 100%;
 }
 
-/* Configuración de misma altura para todos los contenedores.*/
+/* Configuración 800 px de altura para todos los contenedores.*/
 .section {
     height: 800px;
+    border: 1px solid black;
 }
 
 .navbar {
     position: fixed;
     top: 0;
 }
+
+/* Configurado para que se mueva cuando pasas en ratón por encima */
+
+.arrow-icon {
+    transition-property: transform;
+}
+
+.arrow-icon:hover {
+    transform: translateX(8px);
+    transition-duration: 1s;
+}
+
+.cont-2-1 {
+    height: 100px;
+}
+
+.cont-2-2 {
+    height: 700px;
+}
+
+
+.img1, .img2, .img3 {
+    height: 500px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img1 {
+    background-image: url(../img/samas-cuadrado.jpeg);
+    transition: width 2s, height 2s;
+}
+
+.img1:hover {
+    height: 900px;
+    width: 900px;
+}
+
+.img2 {
+    background-image: url(../img/bencalvert-pialligo-web-2.jpeg);
+    background-size: cover;
+    transition: width 2s, height 2s;
+
+}
+
+.img2:hover {
+    height: 900px;
+    width: 900px;
+}
+
+.img3 {
+    background-image: url(../img/terraza-cuadrado.jpeg);
+    transition: width 2s, height 2s;
+
+}
+
+.img3:hover {
+    height: 900px;
+    width: 900px;
+}
+
+.behind-img {
+    width: 80vw; 
+    background-color: var(--beige);
+}
+
