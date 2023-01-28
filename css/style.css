@@ -80,7 +80,7 @@ body video {
     height: 200px;
 }
 
-.cont-2-2 {
+.cont-2-2, .cont-3-2 {
     height: 600px;
 }
 
@@ -100,41 +100,47 @@ body video {
     height: 80%;
     width: 30%;
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
+    transition: width 2s, height 2s;
 }
 
 .img4, .img5 {
     height: 80%;
     width: 48%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    transition: width 2s, height 2s;
 }
 
 .img1 {
     background-image: url(../img/samas-cuadrado.jpeg);
-    transition: width 2s, height 2s;
 }
 
 .img2 {
     background-image: url(../img/bencalvert-pialligo-web-2.jpeg);
     background-size: cover;
-    transition: width 2s, height 2s;
 }
 
 .img3 {
     background-image: url(../img/terraza-cuadrado.jpeg);
-    transition: width 2s, height 2s;
 }
 
 .img4 {
     background-image: url(../img//patatas-saona-cuadrado.jpeg);
     background-size: cover;
-    transition: width 2s, height 2s;
 }
 
 .img5 {
     background-image: url(../img/ensaladilla_home.jpg);
     background-size: cover;
+}
+
+.img6 {
+    background-image: url(../img/grupo-saona-home-03.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     transition: width 2s, height 2s;
 }
 
@@ -143,12 +149,12 @@ body video {
     width: 600px;
 }
 
-.behind-img-1, .behind-img-2 {
+.behind-img-1, .behind-img-2, .behind-img-3 {
     width: 80vw; 
     
 }
 
-.behind-img-1 {
+.behind-img-1, .behind-img-3 {
     background-color: var(--beige);
 }
 
@@ -156,13 +162,11 @@ body video {
     background-color: var(--dark-olive);
 }
 
-
-
     /* Add a black background color to the top navigation */
 .topnav {
     /* background-color: #333; */
     overflow: hidden;
-  }
+}
   
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -254,12 +258,16 @@ body video {
         display: block;
     }
 
+    .cont-3-2 {
+        height: 450px;
+    }
+
     .img1:hover, .img2:hover, .img3:hover {
         height: 80%;
         width: 30%;
     }
 
-    .behind-img-1, .behind-img-2 {
+    .behind-img-1, .behind-img-2, .behind-img-3 {
         width: 100vw;
     }
 
@@ -270,6 +278,11 @@ body video {
 
     .img4, .img5 {
         height: 45%;
+        width: 100%;
+    }
+
+    .img6 {
+        height: 100%;
         width: 100%;
     }
 
