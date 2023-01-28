@@ -213,13 +213,13 @@ body video {
   }
   
   /* Dropdown container - needed to position the dropdown content */
-  .dropdown {
+  .dropdown1 {
     float: left;
     overflow: hidden;
   }
   
   /* Style the dropdown button to fit inside the topnav */
-  .dropdown .dropbtn {
+  .dropdown1 .dropbtn {
     font-size: 17px;
     border: none;
     outline: none;
@@ -263,13 +263,13 @@ body video {
   }
   
   /* Show the dropdown menu when the user moves the mouse over the dropdown button */
-  .dropdown:hover .dropdown-content {
+  .dropdown1:hover .dropdown-content {
     display: block;
   }
   
   /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
   @media screen and (max-width: 576px) {
-    .topnav a, .dropdown .dropbtn {
+    .topnav a, .dropdown1 .dropbtn {
       display: none;
     }
     .topnav a.icon {
@@ -288,7 +288,7 @@ body video {
       display: block;
       text-align: left;
     }
-    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown1 {float: none;}
     .topnav.responsive .dropdown-content {position: relative;}
     .topnav.responsive .dropdown .dropbtn {
       display: block;
