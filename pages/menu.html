@@ -12,6 +12,45 @@
     <title>Menú</title>
 </head>
 <body>
+<!-- Bloque del navbar. Container 1. Collapsa en sm. -->
+<nav class="navbar navbar-expand-sm">
+    <div class="container-fluid">
+        <ul class="col-12 col-sm-2 col-lg-4 nav-1 navbar-nav text-lg-start text-sm-start text-center ms-0 pt-0 pt-sm-5 pt-lg-5 ms-sm-5 ms-lg-5">
+            <li class="nav-item ">
+                <a href="" class="nav-link text-white brand-name ms-0 ms-lg-5 ms-sm-1">SAONA</a>
+            </li>
+        </ul>
+        <ul class="col-6 col-sm-8 col-lg-6 nav-2 navbar-nav text-lg-start text-sm-start text-center pt-5 topnav" id="myTopnav">
+            <a href="">Restaurantes y reservas</a>
+            <a href="">A domicilio</a>
+            <div class="dropdown1">
+                <button class="dropbtn">Mediterráneo Bonito
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Historia</a>
+                    <a href="#">Equipo</a>
+                    <a href="#">Estilo Saona</a>
+                </div>
+            </div>
+            <a href="">Esencia Saona</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </ul>
+        <ul class="col-6 col-sm-2 col-lg-1 nav-3 navbar-nav text-lg-end pe-5 pt-5 ">
+            <li class="dropdown nav-item globe-link text-center text-sm-end text-lg-end">
+                <a href="" class="nav-link text-white dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-globe"></i></a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="#">Español</a></li>
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
 <!-- Container 1. Header -->
 <div class="container-fluid">
     <div class="row">
@@ -22,16 +61,25 @@
         </div>   
     </div>        
     <div class="row">
-        <div class="behind-img-1 img-container cont-2-2 col-">
-            <img src="../img/degustacion-noche-finde-2-new.jpg" alt="">
-            <img src="../img/degustacion-noche-finde-2-new.jpg" alt="">
-            
-            
-            <!-- <div class="img2"></div>
-            <div class="img1"></div> -->
+        <div class="col- cont-2-2">
+            <div class="img-container ms-sm-5">
+                <div class="col-">
+                    <img class="img1" src="../img/degustacion-noche-finde-2-new.jpg" alt="">
+                </div>
+                <div class="col- ms-sm-3 me-sm-5">
+                    <img  class="img2" src="../img/semana-mediodia-sevilla.jpg" alt="">
+                </div>
+            </div>
+           
         </div>
-        <p class="text-dark-blue">Sumérgete en una propuesta gastronómica inspirada en el respeto absoluto por la materia prima. El resultado es una carta sorprendente, deliciosa y variada. Hora de romper la rutina.</p>
-    </div>            
+    </div>    
+    <div class="row">
+        <div class="col-sm-2 col-lg-3 cont-2-3"></div>
+        <div class="col-sm-8 col-lg-6">
+            <p class="text-dark-blue pt-4 ms-sm-5 me-sm-5">Sumérgete en una propuesta gastronómica inspirada en el respeto absoluto por la materia prima. El resultado es una carta sorprendente, deliciosa y variada. Hora de romper la rutina.</p>
+        </div>
+        <div class="col-sm-2 col-lg-3"></div>   
+    </div>           
 </div>
 
 
