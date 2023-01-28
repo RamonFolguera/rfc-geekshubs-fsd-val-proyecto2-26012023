@@ -13,23 +13,44 @@
 </head>
 <body>
 <!-- Header. Este elemento video creará el background video del header -->
-        <video playsinline autoplay muted loop id="myVideo">
+        <video playsinline  muted loop id="myVideo">
             <source src="./videos/Food_Reel_2020.mp4" type="video/mp4">
         </video>
 
 <!-- Bloque del navbar. Collapsa en sm. -->
         <nav class="container-fluid navbar navbar-expand-sm ">
-                <ul class="col-12 col-sm-2 col-lg-4 navbar-nav text-lg-start text-sm-start text-center ms-5 pt-5">
-                    <li class="nav-item">
-                        <a href="" class="nav-link text-white brand-name text-center ms-5">SAONA</a>
+                <ul class="col-12 col-sm-2 col-lg-4 nav-1 navbar-nav text-lg-start text-sm-start text-center ms-0 ms-sm-5 ms-lg-5 pt-5">
+                    <li class="nav-item ">
+                        <a href="" class="nav-link text-white brand-name ms-0 ms-lg-5 ms-sm-1">SAONA</a>
                     </li>
                 </ul>
-                <ul class="col-12 col-sm-8 col-lg-6 class navbar-nav text-lg-start text-sm-start text-center pt-5">
+                <ul class="col-6 col-sm-8 col-lg-6 nav-2 navbar-nav text-lg-start text-sm-start text-center pt-5 topnav" id="myTopnav">
+                    <a href="">Restaurantes y reservas</a>
+                    <a href="">A domicilio</a>
+                    <div class="dropdown">
+                      <button class="dropbtn">Mediterráneo Bonito
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="#">Historia</a>
+                        <a href="#">Equipo</a>
+                        <a href="#">Estilo Saona</a>
+                      </div>
+                    </div>
+                    <a href="">Esencia Saona</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                </ul>
+               
+               
+               
+               
+               
+                <!-- <ul class="col-2 col-sm-8 col-lg-6 class nav-2 navbar-nav text-lg-start text-sm-start text-center pt-5">
+                    <i class="fa-solid fa-bars text-white pe-4" onclick="addRemoveClass()"></i>
                     <li class="nav-item">
                         <a href="" class="nav-link text-white">Restaurantes y reservas</a>
                     </li>
                 
-            
                     <li class="nav-item">
                         <a href="" class="nav-link text-white">A domicilio</a>
                     </li>
@@ -41,10 +62,10 @@
                     <li class="nav-item">
                         <a href="" class="nav-link text-white">Mediterráneo Bonito</a>
                     </li>
-                </ul>
-                <ul class="col-12 col-sm-2 col-lg-1 navbar-nav text-lg-end text-center pt-5 d-flex justify-content-end">
-                    <li class="dropdown nav-item">
-                        <a href="" class="nav-link text-white dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-globe"></i></a>
+                </ul> -->
+                <ul class="col-6 col-sm-2 col-lg-1 nav-3 navbar-nav text-lg-end pe-5 pt-5 ">
+                    <li class="dropdown nav-item globe-link text-center text-sm-end text-lg-end">
+                        <a href="" class="nav-link text-white dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-globe"></i></a>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li><a class="dropdown-item" href="#">Español</a></li>
                             <li><a class="dropdown-item" href="#">English</a></li>
@@ -58,13 +79,13 @@
 
 
 
-    <div class="container-fluid d-flex justify-content-center mt-5">
-        <div class="row behind-img">
+    <div class="container-fluid d-flex justify-content-center flex-column align-items-center mt-5 pe-0 ps-0">
+        <!-- <div class="row"> -->
             <div class="row">
-                <div class="col cont-2-1 text-center mt-5">
-                    <h1>Saona</h1>
-                    <h2>Amor al Mediterráneo</h2>
-                    <p>Trabajando cada día para compartir contigo nuestro Amor al Mediterráneo.</p>
+                <div class="behind-img col- cont-2-1 text-center pt-4">
+                    <h1 class="text-dark-blue">Saona</h1>
+                    <h2 class="text-dark-blue">Amor al Mediterráneo</h2>
+                    <p class="text-dark-blue">Trabajando cada día para compartir contigo nuestro Amor al Mediterráneo.</p>
                     <a href="" class="text-decoration-none d-flex justify-content-center">
                         Ver restaurantes 
                         <div class="arrow-icon ms-1">
@@ -74,21 +95,18 @@
                 </div>
             </div>
             <div class="row">
-                <div class="cont-2-2 col d-flex justify-content-between align-items-center">
-                        <div class="img1 ms-5"></div>
+                <div class="behind-img img-container cont-2-2 col ">
+                        <div class="img1"></div>
                         <div class="img2"></div>
-                        <div class="img3 me-5"></div>
+                        <div class="img3"></div>
                     </div>
             </div>
-        </div>
+        <!-- </div> -->
     </div>
 
     <!-- Container 4 -->
-    <div class="container-fluid">
-        <div class="row border border-dark">
-            <div class="section section-2 col text-white">hola</div>
-        </div>
-    </div>
+    
+
 
     <!-- Container 5-->
     <div class="container-fluid">
@@ -152,6 +170,6 @@
 </div>
 
 
-
+<script src="./js/script.js"></script>
 </body>
 </html>
