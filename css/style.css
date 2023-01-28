@@ -26,6 +26,10 @@ body {
     color: var(--dark-blue);
 }
 
+.text-light-beige {
+    color: var(--light-beige)
+}
+
 .brand-name {
     font-family: 'Flama Bold', sans-serif;
     font-size: 2rem;
@@ -56,20 +60,20 @@ body video {
     font-size: 1.5rem;
 }
 
-  .fa-bars:hover {
+.fa-bars:hover {
     font-size: 1.7rem;
     cursor: pointer;
 }
 
-/* Configurado para que se mueva cuando pasas en ratón por encima */
+/* Configurado para que se mueva cuando pasas en ratón por encima del anchor entero: Ver restaurantes y flecha */
 
-.arrow-icon {
+.arrow-transform {
     transition-property: transform;
 }
 
-.arrow-icon:hover {
-    transform: translateX(8px);
-    transition-duration: 1s;
+.arrow-transform:hover > .arrow-icon {
+        transform: translateX(8px);
+        transition-duration: 1s;
 }
 
 .cont-2-1 {
@@ -80,9 +84,28 @@ body video {
     height: 600px;
 }
 
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .img1, .img2, .img3 {
     height: 80%;
     width: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img4, .img5 {
+    height: 80%;
+    width: 48%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -103,21 +126,36 @@ body video {
     transition: width 2s, height 2s;
 }
 
-.img1:hover, .img2:hover, .img3:hover {
+.img4 {
+    background-image: url(../img//patatas-saona-cuadrado.jpeg);
+    background-size: cover;
+    transition: width 2s, height 2s;
+}
+
+.img5 {
+    background-image: url(../img/ensaladilla_home.jpg);
+    background-size: cover;
+    transition: width 2s, height 2s;
+}
+
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover {
     height: 600px;
     width: 600px;
 }
 
-.behind-img {
+.behind-img-1, .behind-img-2 {
     width: 80vw; 
+    
+}
+
+.behind-img-1 {
     background-color: var(--beige);
 }
 
-.img-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.behind-img-2 {
+    background-color: var(--dark-olive);
 }
+
 
 
     /* Add a black background color to the top navigation */
@@ -212,11 +250,16 @@ body video {
 }
     
   @media (max-width: 576px) {
-    .img-container {
+    .img-container, .img-container-2 {
         display: block;
     }
 
-    .behind-img {
+    .img1:hover, .img2:hover, .img3:hover {
+        height: 80%;
+        width: 30%;
+    }
+
+    .behind-img-1, .behind-img-2 {
         width: 100vw;
     }
 
@@ -225,9 +268,15 @@ body video {
         width: 100%;
     }
 
+    .img4, .img5 {
+        height: 45%;
+        width: 100%;
+    }
+
     .topnav a, .dropdown1 .dropbtn {
         display: none;
       }
+
       .topnav a.icon {
         display: block;
       }
