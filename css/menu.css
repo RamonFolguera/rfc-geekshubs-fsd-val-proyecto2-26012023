@@ -48,13 +48,36 @@ body {
 }
 
 .cont-2-3 {
-    height: 200px;
+    height: 75px;
+}
+
+.cont-2-4 {
+    height: 100px
 }
 
 .img1, .img2 {
     height: 50%;
     width: 100%;
     transition: width 2s, height 2s;
+}
+
+.starters {
+    background-color: var(--white);
+}
+
+.hidden-text {
+    display: none;
+}
+
+.text-size {
+    font-size: 0.9rem;
+}
+
+.nuevo {
+    background-color: var(--light-beige);
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
 }
 
 @media (min-width: 576px) {
@@ -68,6 +91,14 @@ body {
         height: 300px;
         width: 400px;
         transition: width 2s, height 2s;
+    }
+
+    .hidden-text {
+        display: flex;
+    }
+
+    .text-size {
+        font-size: 1.1rem;
     }
 }
 
@@ -94,5 +125,13 @@ body {
 
     .cont-2-2 {
         height: 550px;
+    }
+
+    .text-size-h2 {
+        font-size: 2rem;
+    }
+
+    .text-size-price {
+        font-size: 1.2rem;
     }
 }
