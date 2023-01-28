@@ -65,6 +65,10 @@ body {
     background-color: var(--white);
 }
 
+.carusel {
+    background-color: var(--light-beige);
+}
+
 .hidden-text {
     display: none;
 }
