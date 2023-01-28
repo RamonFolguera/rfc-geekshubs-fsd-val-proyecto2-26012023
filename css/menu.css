@@ -1,0 +1,96 @@
+/* Paleta de colores a utilizar */
+
+:root {
+    --dark-blue: #344A57;
+    --dark-olive: #6B705C;
+    --olive: #A5A58D;
+    --light-olive: #B7B7A4;
+    --dark-beige: #CB997E;
+    --beige: #DDBEA9;
+    --light-beige: #FFE8D6;
+    --white: #ffffff;
+}
+
+/* Configuración para que todos los elementos incluyan el borde y el padding en sus dimensiones*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--light-beige);
+}
+
+/* Colores de los textos*/
+.text-dark-blue {
+    color: var(--dark-blue);
+}
+
+.text-light-beige {
+    color: var(--light-beige)
+}
+
+.text-dark-olive {
+    color: var(--dark-olive)
+}
+
+.brand-name {
+    font-family: 'Flama Bold', sans-serif;
+    font-size: 2rem;
+}
+
+.cont-2-1 {
+    height: 200px;
+}
+
+.cont-2-2 {
+    height: 600px;
+}
+
+.img1, .img2 {
+    height: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition: width 2s, height 2s;
+}
+
+.img1 {
+    background-image: url(../img/degustacion-noche-finde-2-new.jpg);
+}
+
+.img2 {
+    background-image: url(../img//semana-mediodia-sevilla.jpg);
+}
+
+@media (min-width: 576px) {
+    .img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .img-container {
+        position: relative;
+    }
+
+    .img1 {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 250px;
+        left: 800px;
+    }
+
+    .img2 {
+        
+        width: 1000px;
+        position: absolute;
+        top: 0;
+        left: 300px;
+    }
+
+}
