@@ -45,6 +45,7 @@ body video {
 .navbar {
     position: fixed;
     top: 0;
+    width: 100vw;
 }
 
 /* Link que debería abrir y cerrar el nav-2 en tamaño móvl inicia escondido */
@@ -200,20 +201,14 @@ body video {
     display: block;
   }
   
-  /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
-  @media (max-width: 576px) {
-   
-  }
-  
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   
   @media (max-width: 992px) {
     .behind-img {
         width: 90vw;
     }
 }
-  
-  
+    
   @media (max-width: 576px) {
     .img-container {
         display: block;
