@@ -267,10 +267,6 @@ body video {
     width: 40vw;
 }
 
-.display-4 {
-    display: flex;
-}
-
 .img-container {
     display: flex;
     justify-content: center;

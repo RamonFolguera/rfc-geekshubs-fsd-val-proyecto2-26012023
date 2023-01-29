@@ -1,0 +1,39 @@
+body {
+    margin-top: 200px;
+    background-color: var(--white);
+}
+
+.navbar {
+    background: var(--dark-olive) ;
+}
+
+.hidden-text {
+    display: none;
+}
+
+.row-2 {
+    background-color: var(--light-beige);
+}
+
+@media (min-width:576px) {
+    body {
+        margin-top:175px;  
+    }
+}
+
+@media (min-width:992px) {
+    .hidden-text {
+        display: block;
+    }
+    body {
+        margin-top: 150px;  
+    }
+}
+
+
+
+
+a {
+    color: var(--dark-blue);
+    text-decoration: none;
+}

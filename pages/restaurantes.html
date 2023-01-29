@@ -8,108 +8,200 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/65024854fe.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/menu.css">
+    <link href="https://fonts.cdnfonts.com/css/flama-bold" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/restaurantes.css">
     <title>Restaurantes</title>
 </head>
 <body>
 <!-- Bloque del navbar. Container 1. Collapsa en sm. -->
-<nav class="navbar navbar-expand-sm">
-    <div class="container-fluid">
-        <ul class="col-12 col-sm-2 col-lg-4 nav-1 navbar-nav text-lg-start text-sm-start text-center ms-0 pt-0 pt-sm-5 pt-lg-5 ms-sm-5 ms-lg-5">
-            <li class="nav-item ">
-                <a href="" class="nav-link text-white brand-name ms-0 ms-lg-5 ms-sm-1">SAONA</a>
-            </li>
-        </ul>
-        <ul class="col-6 col-sm-8 col-lg-6 nav-2 navbar-nav text-lg-start text-sm-start text-center pt-5 topnav" id="myTopnav">
-            <a href="">Restaurantes y reservas</a>
-            <a href="">A domicilio</a>
-            <div class="dropdown1">
-                <button class="dropbtn">Mediterráneo Bonito
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="#">Historia</a>
-                    <a href="#">Equipo</a>
-                    <a href="#">Estilo Saona</a>
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <ul class="col-12 col-sm-2 col-lg-3 nav-1 navbar-nav text-lg-start text-sm-start text-center ms-0 pt-0 pt-sm-5 pt-lg-5 ms-sm-5">
+                <li class="nav-item ">
+                    <a href="../index.html" class="nav-link text-white brand-name ms-0 ms-sm-1 ms-lg-2">SAONA</a>
+                </li>
+            </ul>
+            <ul class="col-6 col-sm-8 col-lg-6 nav-2 navbar-nav text-lg-start text-sm-start text-center pt-5 d-flex justify-content-center topnav" id="myTopnav">
+                <a href="./pages/restaurantes.html">Restaurantes y reservas</a>
+                <a href="https://glovoapp.com/es/es/valencia/">A domicilio</a>
+                <div class="dropdown1">
+                    <button class="dropbtn">Mediterráneo Bonito
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="./pages/enProgreso.html">Historia</a>
+                        <a href="./pages/enProgreso.html">Equipo</a>
+                        <a href="./pages/enProgreso.html">Estilo Saona</a>
+                    </div>
                 </div>
-            </div>
-            <a href="">Esencia Saona</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-        </ul>
-        <ul class="col-6 col-sm-2 col-lg-1 nav-3 navbar-nav text-lg-end pe-5 pt-5 ">
-            <li class="dropdown nav-item globe-link text-center text-sm-end text-lg-end">
-                <a href="" class="nav-link text-white dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-globe"></i></a>
-                <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a class="dropdown-item" href="#">Español</a></li>
-                    <li><a class="dropdown-item" href="#">English</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-</nav>
+                <a href="./pages/enProgreso.html">Esencia Saona</a>
+                <a href="javascript:void(0);" class="icon text-white" onclick="myFunction()">&#9776;</a>
+            </ul>
+            <ul class="col-6 col-sm-2 col-lg-1 nav-3 navbar-nav text-lg-end pt-5">
+                <li class="dropdown nav-item globe-link text-center text-sm-end text-lg-end">
+                    <a href="" class="nav-link text-white dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-globe"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="./index.html">Español</a></li>
+                        <li><a class="dropdown-item" href="./pages/enProgreso.html">English</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
     
 <!-- Container restaurantes -->
     <div class="container-fluid">
-        <div class="row">
-            <div class="col">
+        <div class="row ps-3 mb-3">
+            <div class="col-12 col-sm-12 col-lg-6 ps-lg-5">
                 <h3 class="text-dark-blue">Saona Gran Vía</h3>
                 <p class="text-dark-blue">Gran Via del Marqués del Túria, 46, 46005 València</p>
-                <p class="text-dark-blue">Desayunos: 9:00 a 12:00</p>
-                <p class="text-dark-blue">Mediodía: 13:00 a 16:30</p>
-                <p class="text-dark-blue">Noche domingo a miércoles: 20:00 a 23:30</p>
-                <p class="text-dark-blue">Noche de jueves a sábado: 20:00 a 0:00</p>
+                <p class="text-dark-blue hidden-text">Desayunos: 9:00 a 12:00</p>
+                <p class="text-dark-blue hidden-text">Mediodía: 13:00 a 16:30</p>
+                <p class="text-dark-blue hidden-text">Noche domingo a miércoles: 20:00 a 23:30</p>
+                <p class="text-dark-blue hidden-text">Noche de jueves a sábado: 20:00 a 0:00</p>
             </div>
-            <div class="col">
-                <p><i class="fa-solid fa-house"></i>Ver restaurante</p>
+            <div class="col col-sm col-lg-2 d-sm-flex align-items-sm-center">
+                <a href="../pages/alameda.html" class='d-sm-flex align-items-sm-center'>
+                    <i class="fa-solid fa-house"></i>
+                    <p class="text-dark-blue mb-sm-0 ps-sm-3">Ver restaurante</p>
+                </a>
             </div>
-            <div class="col">
-                <p><i class="fa-solid fa-map"></i>Cómo llegar</p>
+            <div class="col col-sm col-lg-2 d-sm-flex align-items-sm-center">
+                <a href="" class='d-sm-flex align-items-sm-center'>
+                    <i class="fa-solid fa-map"></i>
+                    <p class="text-dark-blue mb-sm-0 ps-sm-3">Cómo llegar</p>
+                </a>
             </div>
-            <div class="col">
-                <p><i class="fa-solid fa-book"></i>Reservar</p>
+            <div class="col col-sm col-lg-2 d-sm-flex align-items-sm-center">
+                <a href="" class='d-sm-flex align-items-sm-center'>
+                    <i class="fa-solid fa-book"></i>
+                    <p class="text-dark-blue mb-sm-0 ps-sm-3">Reservar</p>
+                </a>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
+        <div class="row ps-3 row-2 pt-3 mb-3">
+            <div class="col-12 col-sm-12 col-lg-6 ps-lg-5">
                 <h3 class="text-dark-blue">Saona Alameda</h3>
                 <p class="text-dark-blue">Paseo de la Alameda 41, 46023, Valencia</p>
-                <p class="text-dark-blue">Mediodía: 13:00 a 16:30</p>
-                <p class="text-dark-blue">Noche domingo a miércoles: 20:00 a 23:30</p>
-                <p class="text-dark-blue">Noche de jueves a sábado: 20:00 a 0:00</p>
+                <p class="text-dark-blue hidden-text">Mediodía: 13:00 a 16:30</p>
+                <p class="text-dark-blue hidden-text">Noche domingo a miércoles: 20:00 a 23:30</p>
+                <p class="text-dark-blue hidden-text">Noche de jueves a sábado: 20:00 a 0:00</p>
             </div>
-            <div class="col">
-                <p><i class="fa-solid fa-house"></i>Ver restaurante</p>
+            <div class="col col-sm col-lg-2 d-sm-flex align-items-sm-center">
+                <a href="../pages/alameda.html" class='d-sm-flex align-items-sm-center'>
+                    <i class="fa-solid fa-house"></i>
+                    <p class="text-dark-blue mb-sm-0 ps-sm-3">Ver restaurante</p>
+                </a>
             </div>
-            <div class="col">
-                <p><i class="fa-solid fa-map"></i>Cómo llegar</p>
+            <div class="col col-sm col-lg-2 d-sm-flex align-items-sm-center">
+                <a href="" class='d-sm-flex align-items-sm-center'>
+                    <i class="fa-solid fa-map"></i>
+                    <p class="text-dark-blue mb-sm-0 ps-sm-3">Cómo llegar</p>
+                </a>
             </div>
-            <div class="col">
-                <p><i class="fa-solid fa-book"></i>Reservar</p>
+            <div class="col col-sm col-lg-2 d-sm-flex align-items-sm-center">
+                <a href="" class='d-sm-flex align-items-sm-center'>
+                    <i class="fa-solid fa-book"></i>
+                    <p class="text-dark-blue mb-sm-0 ps-sm-3">Reservar</p>
+                </a>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
+        <div class="row ps-3 pt-3 mb-3">
+            <div class="col-12 col-sm-12 col-lg-6 ps-lg-5">
                 <h3 class="text-dark-blue">Saona Plaza de la Virgen</h3>
                 <p class="text-dark-blue">Plaza de la Virgen 8, 46003, Valencia</p>
-                <p class="text-dark-blue">Mediodía lunes a viernes: 13:00 a 16:30</p>
-                <p class="text-dark-blue">Mediodía sábados y domingos: 13:00 a 16:45</p>
-                <p class="text-dark-blue">Meriendas (de lunes a viernes): 17:00 a 19:30</p>
-                <p class="text-dark-blue">Noche lunes a viernes y domingos: 20:00 a 23:30</p>
-                <p class="text-dark-blue">Noche sábado: 20:00 a 23:45</p>
+                <p class="text-dark-blue hidden-text">Mediodía lunes a viernes: 13:00 a 16:30</p>
+                <p class="text-dark-blue hidden-text">Mediodía sábados y domingos: 13:00 a 16:45</p>
+                <p class="text-dark-blue hidden-text">Meriendas (de lunes a viernes): 17:00 a 19:30</p>
+                <p class="text-dark-blue hidden-text">Noche lunes a viernes y domingos: 20:00 a 23:30</p>
+                <p class="text-dark-blue hidden-text">Noche sábado: 20:00 a 23:45</p>
             </div>
-            <div class="col">
-                <p><i class="fa-solid fa-house"></i>Ver restaurante</p>
+            <div class="col col-sm col-lg-2 d-sm-flex align-items-sm-center">
+                <a href="../pages/alameda.html" class='d-sm-flex align-items-sm-center'>
+                    <i class="fa-solid fa-house"></i>
+                    <p class="text-dark-blue mb-sm-0 ps-sm-3">Ver restaurante</p>
+                </a>
             </div>
-            <div class="col">
-                <p><i class="fa-solid fa-map"></i>Cómo llegar</p>
+            <div class="col col-sm col-lg-2 d-sm-flex align-items-sm-center">
+                <a href="" class='d-sm-flex align-items-sm-center'>
+                    <i class="fa-solid fa-map"></i>
+                    <p class="text-dark-blue mb-sm-0 ps-sm-3">Cómo llegar</p>
+                </a>
             </div>
-            <div class="col">
-                <p><i class="fa-solid fa-book"></i>Reservar</p>
+            <div class="col col-sm col-lg-2 d-sm-flex align-items-sm-center">
+                <a href="" class='d-sm-flex align-items-sm-center'>
+                    <i class="fa-solid fa-book"></i>
+                    <p class="text-dark-blue mb-sm-0 ps-sm-3">Reservar</p>
+                </a>
             </div>
         </div>
     </div>
+<!-- Container Footer-->
+    <div class="container-fluid footer pt-5 pt-lg-4">
+        <div class="row">
+            <div class="col-12 col-sm-4 col-lg-3 text-white text-start ps-lg-3 ">
+                <a href="./index.html" class="nav-link text-white brand-name ms-0 ms-lg-5 ms-sm-1">SAONA</a>
+            </div>
+            <ul class="col-12 col-sm-4 col-lg-2 text-white text-center">
+                <li>
+                    <a class='text-white' href="./pages/enProgreso.html">Trabaja con nosotros</a>
+                </li>
+                <li>
+                    <a class='text-white' href="./pages/enProgreso.html">Regala Saona</a>
+                </li>
+                <li>
+                    <a class='text-white' href="./pages/enProgreso.html">Blog</a>
+                </li>
+            </ul>
+            <ul class="col-12 col-sm-4 col-lg-2 text-white text-center">
+                <li>
+                    <a class='text-white' href="./pages/enProgreso.html">Política de privacidad</a>
+                </li>
+                <li>
+                    <a class='text-white' href="./pages/enProgreso.html">Política de cookies</a>
+                </li>
+                <li>
+                    <a class='text-white' href="./pages/enProgreso.html">Política de solicitudes de empleo</a>
+                </li>
+                <li>
+                    <a class='text-white' href="./pages/enProgreso.html">Política de redes sociales</a>
+                </li>
+            </ul>
+            <ul class="col-12 col-sm-6 col-lg-2 text-white text-center">
+                <li>
+                    <a class='text-white' href="./pages/enProgreso.html">Aviso legal</a>
+                </li>
+                <li>
+                    <a class='text-white' href="./pages/restaurantes.html">Restaurantes y reservas</a>
+                </li>
+                <li>
+                    <a class='text-white' href="./pages/enProgreso.html">Celebra tu evento</a>
+                </li>
+            </ul>
+            <ul class="col-12 col-sm-6 col-lg-3 text-white text-center d-flex flex-column justify-content-center ps-5 pe-5">
+                <div class="d-flex justify-content-between pe-lg-5 ps-lg-5">
+                    <li>
+                        <a class='text-white' href="https://www.instagram.com/gruposaona/"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a class='text-white' href="https://www.facebook.com/gruposaona"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a class='text-white' href="https://twitter.com/gruposaona"><i class="fa-brands fa-square-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a class='text-white' href="https://www.youtube.com/channel/UCGLdWRKW_jU9vZS8wz8Ti6g/featured"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a class='text-white' href="https://www.linkedin.com/company/grupo-saona"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                </div>
+                <div>Grupo Saona © 2023</div>
+            </ul>
+        </div>
+    </div>
 
-
-
+<script src="../js/script.js"></script>
 </body>
 </html>
