@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/65024854fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/menu.css">
+    <title>Restaurantes</title>
+</head>
+<body>
+<!-- Bloque del navbar. Container 1. Collapsa en sm. -->
+<nav class="navbar navbar-expand-sm">
+    <div class="container-fluid">
+        <ul class="col-12 col-sm-2 col-lg-4 nav-1 navbar-nav text-lg-start text-sm-start text-center ms-0 pt-0 pt-sm-5 pt-lg-5 ms-sm-5 ms-lg-5">
+            <li class="nav-item ">
+                <a href="" class="nav-link text-white brand-name ms-0 ms-lg-5 ms-sm-1">SAONA</a>
+            </li>
+        </ul>
+        <ul class="col-6 col-sm-8 col-lg-6 nav-2 navbar-nav text-lg-start text-sm-start text-center pt-5 topnav" id="myTopnav">
+            <a href="">Restaurantes y reservas</a>
+            <a href="">A domicilio</a>
+            <div class="dropdown1">
+                <button class="dropbtn">Mediterráneo Bonito
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Historia</a>
+                    <a href="#">Equipo</a>
+                    <a href="#">Estilo Saona</a>
+                </div>
+            </div>
+            <a href="">Esencia Saona</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </ul>
+        <ul class="col-6 col-sm-2 col-lg-1 nav-3 navbar-nav text-lg-end pe-5 pt-5 ">
+            <li class="dropdown nav-item globe-link text-center text-sm-end text-lg-end">
+                <a href="" class="nav-link text-white dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-globe"></i></a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="#">Español</a></li>
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+    
+<!-- Container restaurantes -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h3 class="text-dark-blue">Saona Gran Vía</h3>
+                <p class="text-dark-blue">Gran Via del Marqués del Túria, 46, 46005 València</p>
+                <p class="text-dark-blue">Desayunos: 9:00 a 12:00</p>
+                <p class="text-dark-blue">Mediodía: 13:00 a 16:30</p>
+                <p class="text-dark-blue">Noche domingo a miércoles: 20:00 a 23:30</p>
+                <p class="text-dark-blue">Noche de jueves a sábado: 20:00 a 0:00</p>
+            </div>
+            <div class="col">
+                <p><i class="fa-solid fa-house"></i>Ver restaurante</p>
+            </div>
+            <div class="col">
+                <p><i class="fa-solid fa-map"></i>Cómo llegar</p>
+            </div>
+            <div class="col">
+                <p><i class="fa-solid fa-book"></i>Reservar</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3 class="text-dark-blue">Saona Alameda</h3>
+                <p class="text-dark-blue">Paseo de la Alameda 41, 46023, Valencia</p>
+                <p class="text-dark-blue">Mediodía: 13:00 a 16:30</p>
+                <p class="text-dark-blue">Noche domingo a miércoles: 20:00 a 23:30</p>
+                <p class="text-dark-blue">Noche de jueves a sábado: 20:00 a 0:00</p>
+            </div>
+            <div class="col">
+                <p><i class="fa-solid fa-house"></i>Ver restaurante</p>
+            </div>
+            <div class="col">
+                <p><i class="fa-solid fa-map"></i>Cómo llegar</p>
+            </div>
+            <div class="col">
+                <p><i class="fa-solid fa-book"></i>Reservar</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3 class="text-dark-blue">Saona Plaza de la Virgen</h3>
+                <p class="text-dark-blue">Plaza de la Virgen 8, 46003, Valencia</p>
+                <p class="text-dark-blue">Mediodía lunes a viernes: 13:00 a 16:30</p>
+                <p class="text-dark-blue">Mediodía sábados y domingos: 13:00 a 16:45</p>
+                <p class="text-dark-blue">Meriendas (de lunes a viernes): 17:00 a 19:30</p>
+                <p class="text-dark-blue">Noche lunes a viernes y domingos: 20:00 a 23:30</p>
+                <p class="text-dark-blue">Noche sábado: 20:00 a 23:45</p>
+            </div>
+            <div class="col">
+                <p><i class="fa-solid fa-house"></i>Ver restaurante</p>
+            </div>
+            <div class="col">
+                <p><i class="fa-solid fa-map"></i>Cómo llegar</p>
+            </div>
+            <div class="col">
+                <p><i class="fa-solid fa-book"></i>Reservar</p>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
