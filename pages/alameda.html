@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/65024854fe.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.cdnfonts.com/css/flama-bold" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/info.css">
+    <title>Restaurantes</title>
+</head>
+<body>
+<!-- Bloque del navbar. Container 1. Collapsa en sm. -->
+<nav class="navbar navbar-expand-sm">
+    <div class="container-fluid">
+        <ul class="col-12 col-sm-2 col-lg-3 nav-1 navbar-nav text-lg-start text-sm-start text-center ms-0 pt-0 pt-sm-5 pt-lg-5 ms-sm-5">
+            <li class="nav-item ">
+                <a href="../index.html" class="nav-link text-white brand-name ms-0 ms-sm-1 ms-lg-2">SAONA</a>
+            </li>
+        </ul>
+        <ul class="col-6 col-sm-8 col-lg-6 nav-2 navbar-nav text-lg-start text-sm-start text-center pt-5 d-flex justify-content-center topnav" id="myTopnav">
+            <a href="./pages/restaurantes.html">Restaurantes y reservas</a>
+            <a href="https://glovoapp.com/es/es/valencia/">A domicilio</a>
+            <div class="dropdown1">
+                <button class="dropbtn">Mediterráneo Bonito
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="./pages/enProgreso.html">Historia</a>
+                    <a href="./pages/enProgreso.html">Equipo</a>
+                    <a href="./pages/enProgreso.html">Estilo Saona</a>
+                </div>
+            </div>
+            <a href="./pages/enProgreso.html">Esencia Saona</a>
+            <a href="javascript:void(0);" class="icon text-white" onclick="myFunction()">&#9776;</a>
+        </ul>
+        <ul class="col-6 col-sm-2 col-lg-1 nav-3 navbar-nav text-lg-end pt-5">
+            <li class="dropdown nav-item globe-link text-center text-sm-end text-lg-end">
+                <a href="" class="nav-link text-white dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-globe"></i></a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="./index.html">Español</a></li>
+                    <li><a class="dropdown-item" href="./pages/enProgreso.html">English</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Container principal -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-lg-4">
+            <!-- Carousel -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+            
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/restaurantes/Saona_GV_1.jpg" alt="Saona Gran Via 1" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/restaurantes/Saona_GV_2.jpg" alt="Saona Gran Via 2" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/restaurantes/Saona_GV_5.jpg" alt="Saona Gran Via 3" class="d-block w-100">
+                </div>
+                </div>
+            
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+            <div class="text-center">
+                <a href="../pages/menu.html" class="form-control">CARTA</a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+            <h1 class="text-dark-blue">Saona Gran Vía</h1>
+            <p class="text-dark-blue">El primer restaurante de Grupo Saona, donde empezó todo. Un pequeño local con una pequeña cocina donde seguimos trabajando con la ilusión intacta del primer día intacta.</p>
+            <a href="https://www.google.com/maps/place/Saona/@39.4667066,-0.3687856,15z/data=!4m2!3m1!1s0x0:0x6a31b729e4bffdad?sa=X&ved=2ahUKEwjHr-iotL_8AhUUT8AKHVwsAU8Q_BJ6BAhOEAk"><i class="fa-regular fa-map me-2 mb-1"></i>Cómo llegar</a>
+            <p class="text-dark-blue mb-0"><i class="fa-solid fa-phone me-2"></i>963 34 64 89</p>
+            <p class="text-dark-blue"><i class="fa-regular fa-calendar me-2"></i>Desayunos: 9:00 a 12:00</p>
+            <p class="text-dark-blue mb-0">Mediodía: 13:00 a 16:30</p>
+            <p class="text-dark-blue mb-0">Noche domingo a miércoles: 20:00 a 23:30</p>
+            <p class="text-dark-blue">Noche de jueves a sábado: 20:00 a 0:00</p>
+            <p class="text-dark-blue mb-0"><i class="fa-regular fa-sun me-2 mt-2"></i>Terraza</p>
+            <p class="text-dark-blue mb-0"><i class="fa-solid fa-mug-saucer me-2"></i>Desayunos</p>
+            <p class="text-dark-blue mb-0"><i class="fa-solid fa-dog me-2"></i>Mascotas en terraza</p>
+            <a href="https://glovoapp.com/es/es/valencia/"><i class="fa-solid fa-golf-ball-tee me-2"></i>Pedir a domicilio con Glovo</a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="form-group pt-1 me-lg-3 ms-lg-3 mb-2">
+                <div for="reservation">
+                    <h4 class="text-dark-blue">Fecha de la reserva:</h4>
+                </div>
+                <input type="date" class="form-control bg-light" id="reservation">
+            </div>
+            <div class="d-flex justify-content-center mb-5 pb-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12320.464256177487!2d-0.3687856!3d39.4667066!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6a31b729e4bffdad!2sSaona%20Gran%20V%C3%ADa!5e0!3m2!1sen!2ses!4v1674989194238!5m2!1sen!2ses" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Container Footer-->
+<div class="container-fluid footer pt-5 pt-lg-4">
+    <div class="row">
+        <div class="col-12 col-sm-4 col-lg-3 text-white text-start ps-lg-3 ">
+            <a href="./index.html" class="nav-link text-white brand-name ms-0 ms-lg-5 ms-sm-1">SAONA</a>
+        </div>
+        <ul class="col-12 col-sm-4 col-lg-2 text-white text-center">
+            <li>
+                <a class='text-white' href="./pages/enProgreso.html">Trabaja con nosotros</a>
+            </li>
+            <li>
+                <a class='text-white' href="./pages/enProgreso.html">Regala Saona</a>
+            </li>
+            <li>
+                <a class='text-white' href="./pages/enProgreso.html">Blog</a>
+            </li>
+        </ul>
+        <ul class="col-12 col-sm-4 col-lg-2 text-white text-center">
+            <li>
+                <a class='text-white' href="./pages/enProgreso.html">Política de privacidad</a>
+            </li>
+            <li>
+                <a class='text-white' href="./pages/enProgreso.html">Política de cookies</a>
+            </li>
+            <li>
+                <a class='text-white' href="./pages/enProgreso.html">Política de solicitudes de empleo</a>
+            </li>
+            <li>
+                <a class='text-white' href="./pages/enProgreso.html">Política de redes sociales</a>
+            </li>
+        </ul>
+        <ul class="col-12 col-sm-6 col-lg-2 text-white text-center">
+            <li>
+                <a class='text-white' href="./pages/enProgreso.html">Aviso legal</a>
+            </li>
+            <li>
+                <a class='text-white' href="./pages/restaurantes.html">Restaurantes y reservas</a>
+            </li>
+            <li>
+                <a class='text-white' href="./pages/enProgreso.html">Celebra tu evento</a>
+            </li>
+        </ul>
+        <ul class="col-12 col-sm-6 col-lg-3 text-white text-center d-flex flex-column justify-content-center ps-5 pe-5">
+            <div class="d-flex justify-content-between pe-lg-5 ps-lg-5">
+                <li>
+                    <a class='text-white' href="https://www.instagram.com/gruposaona/"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a class='text-white' href="https://www.facebook.com/gruposaona"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a class='text-white' href="https://twitter.com/gruposaona"><i class="fa-brands fa-square-twitter"></i></a>
+                </li>
+                <li>
+                    <a class='text-white' href="https://www.youtube.com/channel/UCGLdWRKW_jU9vZS8wz8Ti6g/featured"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a class='text-white' href="https://www.linkedin.com/company/grupo-saona"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+            </div>
+            <div>Grupo Saona © 2023</div>
+        </ul>
+    </div>
+</div>
+
+
+<script src="../js/script.js"></script>
+</body>
+</html>
