@@ -62,6 +62,8 @@ body video {
     text-decoration: none;
 }
 
+
+
 /* La class responsive se añado al topnav con JS cuando el usuario hace click en el icono. Esta class hace que los links del navbar aparezcan como un dropdown solo cuando se acciona el icono haciendo que se vea bien el navbar con el logo y el botón del idioma en cuanto a composición. */
 
 /* Colocación del icono */
@@ -171,21 +173,36 @@ body video {
         transition-duration: 1s;
 }
 
-@media (min-width: 992px) {
-    .topnav  {
-        background-color: red;
-    }
+.footer {
+    background-color: var(--dark-olive);
+}
 
+.footer ul a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+
+@media (min-width: 992px) {
     .behind-img {
         width: 90vw;
     }
+    .footer i {
+        font-size: 1.3rem;
+    }
 }
     
-  @media (min-width: 576px) {
+@media (min-width: 576px) {
 /* Escondido el link que aparece solo en small screens */
 .topnav a.icon {
     display: none;
 }
+
+/* Le damos display para que aparezca cuando pasamos de small screen a screens mayores */
 .topnav a, .dropdown1 .dropbtn {
     display: block;
     padding: 14px 16px;
@@ -195,47 +212,48 @@ body video {
     background-color: none;
 }
 
-/* Style the dropdown button to fit inside the topnav */
 .dropdown1 .dropbtn {
     border: none;
     outline: none;
     color: var(--white);
     padding: 14px 16px;
+    background: none;
 }
 
-/* Style the dropdown content (hidden by default) */
 .dropdown-content {
+    border-radius: 5px;
     display: none;
     position: absolute;
-    background-color: red;
+    background-color: var(--white);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(226, 2, 2, 0.2);
     z-index: 1;
 }
-  
-  /* Style the links inside the dropdown */
-  .dropdown-content a {
-    color: var(--white);
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    color: var(--dark-blue);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-  }
-  
- /* Gris background al usar hover sobre los links del dropdownn */
-  .dropdown-content a:hover {
+}
+
+/* Gris background al usar hover sobre los links del dropdownn */
+.dropdown-content a:hover {
     background-color: #ddd;
     color: black;
-  }
-  
+}
+
 /* Show the dropdown menu when the user moves the mouse over the dropdown button */
 .dropdown1:hover .dropdown-content {
     display: block;
 }
-  
+
 /* Añadido background más oscuro en topnav links y dropdown button en hover */
 .topnav a:hover, .dropdown1:hover, .dropbtn:hover, .globe-link:hover {
     background-color: #555;
+    border-radius: 5px;
 }
 
 .behind-img-1, .behind-img-2, .behind-img-3 {
