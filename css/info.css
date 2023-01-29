@@ -1,27 +1,11 @@
-/* Paleta de colores a utilizar */
-
-:root {
-    --dark-blue: #344A57;
-    --dark-olive: #6B705C;
-    --olive: #A5A58D;
-    --light-olive: #B7B7A4;
-    --dark-beige: #CB997E;
-    --beige: #DDBEA9;
-    --light-beige: #FFE8D6;
-    --white: #ffffff;
-}
-
-/* Configuración para que todos los elementos incluyan el borde y el padding en sus dimensiones*/
-* {
-    box-sizing: border-box;
-}
-
 body {
-    padding:0;
-    margin: 0;
+    margin-top: 200px;
     background-color: var(--white);
 }
 
+.navbar {
+    background: var(--dark-olive) ;
+}
 /* Colores de los textos*/
 .text-dark-blue {
     color: var(--dark-blue);
@@ -48,3 +32,18 @@ body {
     background-color: var(--dark-olive);
     color: var(--white);
 }
+
+.carousel-inner, .carousel-indicators, .carousel button {
+    z-index: -1;
+}
+
+
+
+@media (min-width: 576px) {
+    .carousel-item img {
+        height: 400px;
+    }
+}
+
+
+
