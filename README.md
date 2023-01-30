@@ -53,7 +53,7 @@ Uno de los condicionantes más importantes a la hora de diseñar la website es q
 |-|
 |En esta página la primera sección es una presentación con dos imagenes de cabezera.|
 |A continuación una lista de platos para picar con sus precios. Los apuntes en letra más pequeña desaparecen en small screens y el tamaño de las palabras más grandes se reduce para caber perfectamente en el formato móvil.|
-|Las dos secciones siguientes son los entrantes y principales. Los primeros con un carousel y los siguientes con los elementos card, ambos del boostrap.|
+|Las dos secciones siguientes son los entrantes y principales. Los primeros con un carousel y los siguientes con los elementos card, ambos del boostrap. Las card se distribuyen 4 en linea en tamaño lg, 2 en tamaño md y 1 en xs|
 |![image](./img/readme/Menu.png)|
 
 |Páginas en construcción.|
