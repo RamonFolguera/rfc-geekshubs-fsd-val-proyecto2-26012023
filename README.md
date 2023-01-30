@@ -51,7 +51,7 @@ Uno de los condicionantes más importantes a la hora de diseñar la website es q
 
 |Página con el menú del día|
 |-|
-|En esta página tenemos una sección de presentación con dos imagenes de cabezera.|
+|En esta página la primera sección es una presentación con dos imagenes de cabezera.|
 |A continuación una lista de platos para picar con sus precios. Los apuntes en letra más pequeña desaparecen en small screens y el tamaño de las palabras más grandes se reduce para caber perfectamente en el formato móvil.|
 |Las dos secciones siguientes son los entrantes y principales. Los primeros con un carousel y los siguientes con los elementos card, ambos del boostrap.|
 |![image](./img/readme/Menu.png)|
