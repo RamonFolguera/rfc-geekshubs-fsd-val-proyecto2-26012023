@@ -187,16 +187,10 @@ body video {
     list-style: none;
 }
 
-@media (min-width: 992px) {
-    .block-1, .block-2, .block-3 {
-        width: 90vw;
-    }
-
-    .footer i {
-        font-size: 1.3rem;
-    }
+.navbg {
+    background-color: var(--olive);
 }
-    
+
 @media (min-width: 576px) {
 /* Escondido el link que aparece solo en small screens */
 .topnav a.icon {
@@ -285,7 +279,7 @@ body video {
 .img4, .img5 {
     height: 80%;
     width: 48%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     transition: width 2s, height 2s;
@@ -296,6 +290,23 @@ body video {
     height: 600px;
     width: 600px;
 }
+
+.cont-3-3, .cont-3-1 {
+    height: 600px;
 }
 
+}
 
+@media (min-width: 992px) {
+    .block-1, .block-2 {
+        width: 90vw;
+    }
+
+    .block-3 {
+        width: 45vw;
+    }
+
+    .footer i {
+        font-size: 1.3rem;
+    }
+}

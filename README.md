@@ -26,11 +26,27 @@ Read this English: [English](README_EN.md)
 
 En esta entrega de proyecto de la segunda semana en el bootcamp de GeeksHubs se nos pide crear una página web de un restaurante de nuestra elección usando el framework BOOTSTRAP. Debemos incluir como mínimo una página principal con la presentación del restaurante y páginas adicionales con el menú, información de contacto, etc.
 
-### El reto
+Uno de los condicionantes más importantes a la hora de diseñar la website es que ésta debe ser responsive. Debe adaptarse a pantallas de móvil así como ipads y pantallas de ordenador. Para ello hemos hecho uso de los tamaños de Bootstrap: xs para small screens menor de 576px, md para mayor o igual a 576px, y lg para pantallas mayor o igual a 992 px.
 
-|Página principal|Página del índice de restaurantes|
+### Páginas creadas
+
+|Página principal - lg|
+|-|
+|La página principal se compone del Header donde podemos ver un video presentación y la barra de navegación. A continuación se divide en otras 3 secciones y finaliza con el footer. Las imágenes aumentan de tamaño cuando pasas el ratón por encima creando un dinamismo a la página para hacerla más interesante. También cuando pasas el ratón por los links: Ver restaurante, Hacer pedido y Saber más, la flechita se mueve hacia la derecha.|
+|![image](https://user-images.githubusercontent.com/53578007/215538729-91e57b2c-2be4-4394-a7b9-257a8f609882.png)|
+|![image](https://user-images.githubusercontent.com/53578007/215538729-91e57b2c-2be4-4394-a7b9-257a8f609882.png)|
+![image](https://user-images.githubusercontent.com/53578007/215538729-91e57b2c-2be4-4394-a7b9-257a8f609882.png)|
+![image](https://user-images.githubusercontent.com/53578007/215538729-91e57b2c-2be4-4394-a7b9-257a8f609882.png)|
+
+|Página principal - xs| Página principal - md|
 |-|-|
-|![image](https://user-images.githubusercontent.com/53578007/215538729-91e57b2c-2be4-4394-a7b9-257a8f609882.png)|![image](https://user-images.githubusercontent.com/53578007/215538871-e8415722-4b81-4ed5-93b0-cdf6108ad224.png)|
+|La barra de navegación colapsa para small screens y el menú de la navegación se esconde, apareciendo un icono botón que al apretar despliega sólo los links: Restaurantes y reservas, A domicilio y Esencia Saona, los cuales considero los más importantes. Además el logo Saona se coloca en medio en primera linea, y en segunda los dos iconos. Además, las imágenes se colocan en columna y el fondo de éstas ocupa el ancho completo||
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/53578007/215538871-e8415722-4b81-4ed5-93b0-cdf6108ad224.png)|
 
 
 |Página de los restaurantes|Página del menu|Página en construcción|
