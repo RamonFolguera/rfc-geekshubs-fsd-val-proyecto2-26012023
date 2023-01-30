@@ -1,7 +1,5 @@
 # Proyecto 2 - Carta Restaurante Digital 
 
-Read this English: [English](README_EN.md) 
-
 
 ##### Tabla de contenidos
 
@@ -9,13 +7,10 @@ Read this English: [English](README_EN.md)
   - [El reto](#el-reto)
   - [Capturas de pantalla](#capturas-pantalla)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Mi proceso de trabajo](#mi-processo)
+  - [Creado con](#creado-con)
+- [Autor](#autor)
+- [Licencia](#licencia)
 
 
 
@@ -28,15 +23,11 @@ En esta entrega de proyecto de la segunda semana en el bootcamp de GeeksHubs se 
 
 Uno de los condicionantes más importantes a la hora de diseñar la website es que ésta debe ser responsive. Debe adaptarse a pantallas de móvil así como ipads y pantallas de ordenador. Para ello hemos hecho uso de los tamaños de Bootstrap: xs para small screens menor de 576px, md para mayor o igual a 576px, y lg para pantallas mayor o igual a 992 px.
 
-### Páginas creadas
-
+### Capturas de pantalla y detalles de las páginas creadas
 |Página principal - lg|
 |-|
 |La página principal se compone del Header donde podemos ver un video presentación y la barra de navegación. A continuación se divide en otras 3 secciones y finaliza con el footer. Las imágenes aumentan de tamaño cuando pasas el ratón por encima creando un dinamismo a la página para hacerla más interesante. También cuando pasas el ratón por los links: Ver restaurante, Hacer pedido y Saber más, la flechita se mueve hacia la derecha. El fondo de la barra de navegación cambia de transparente a color cuando hacemos scroll más allá del video header para facilitar la lectura en el resto de la página.|
-|![image](./img/readme/VideoHeaderMain.JPG)|
-|![image](./img/readme/mainsection1.JPG)|
-|![image](./img/readme/mainsection2.JPG)|
-![image](./img/readme/mainsection3.JPG)|
+|![image](./img/readme/index.png)|
 
 |Página principal - xs| Página principal - md|
 |-|-|
@@ -61,22 +52,41 @@ Uno de los condicionantes más importantes a la hora de diseñar la website es q
 |Página con el menú del día|
 |-|
 |En esta página tenemos una sección de presentación con dos imagenes de cabezera.|
-|![image](./img/readme/menu%20cabecera.JPG)|
 |A continuación una lista de platos para picar con sus precios. Los apuntes en letra más pequeña desaparecen en small screens y el tamaño de las palabras más grandes se reduce para caber perfectamente en el formato móvil.|
-|![image](https://user-images.githubusercontent.com/53578007/215539731-e20c05ae-db8e-4b05-abbc-9880c25ad4d1.png)|
 |Las dos secciones siguientes son los entrantes y principales. Los primeros con un carousel y los siguientes con los elementos card, ambos del boostrap.|
-|![image](./img/readme/menuCarousel.JPG)|
-|![image](https://user-images.githubusercontent.com/53578007/215543802-090ceeaa-9007-456d-b628-668a8d725454.png)|
+|![image](./img/readme/Menu.png)|
 
 |Páginas en construcción.|
 |-|
 |Por último, aunque no menos importante. Todas los links que no contienen una página todavía nos dirigirán a la página de la siguiente captura que indica que la página está todavía en construcción. He añadido el navbar y el footer para que el usuario pueda volver fácilmente a las demás páginas que sí funcionan.|
 |![image](https://user-images.githubusercontent.com/53578007/215540606-a0694485-ddd8-4340-8d44-7ce271243770.png)|
 
+### Links
+
+- [Website del restaurante](https://ramonfolguera.github.io/rfc-geekshubs-fsd-val-proyecto2-26012023/)
+- [index.html](https://github.com/RamonFolguera/rfc-geekshubs-fsd-val-proyecto2-26012023/blob/master/index.html)
+- [menu.html](https://github.com/RamonFolguera/rfc-geekshubs-fsd-val-proyecto2-26012023/blob/master/pages/menu.html)
+- [Archivo principal CSS](https://github.com/RamonFolguera/rfc-geekshubs-fsd-val-proyecto2-26012023/blob/master/css/style.css)
 
 
+## Mi proceso de trabajo
 
+### Creado con
 
+- HTML5
+- CSS propiedades customizadas
+- BOOTSTRAP 
+- Mobile-first 
+- JavaScript (Para el accionamiento del botón del navbar y la aparición del background haciendo scroll)
+
+### Autor
+
+- Ramón Folguera Carbonell
+- Twitter - [@folgueramon](https://twitter.com/Folgueramon)
+
+### Licencia
+
+Este proyecto está creado bajo una licencia MIT License. Véase el archivo LICENSE.md para más detalles.
 
 
 
