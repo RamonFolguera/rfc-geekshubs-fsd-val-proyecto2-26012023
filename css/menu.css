@@ -1,59 +1,10 @@
-/* Paleta de colores a utilizar */
-
-:root {
-    --dark-blue: #344A57;
-    --dark-olive: #6B705C;
-    --olive: #A5A58D;
-    --light-olive: #B7B7A4;
-    --dark-beige: #CB997E;
-    --beige: #DDBEA9;
-    --light-beige: #FFE8D6;
-    --white: #ffffff;
-}
-
-/* Configuración para que todos los elementos incluyan el borde y el padding en sus dimensiones*/
-* {
-    box-sizing: border-box;
-}
-
 body {
-    padding:0;
-    margin: 0;
-    background-color: var(--light-olive);
+    margin-top: 175px;
 }
 
-/* Colores de los textos*/
-.text-dark-blue {
-    color: var(--dark-blue);
-}
-
-.text-light-beige {
-    color: var(--light-beige)
-}
-
-.text-dark-olive {
-    color: var(--dark-olive)
-}
-
-.brand-name {
-    font-family: 'Flama Bold', sans-serif;
-    font-size: 2rem;
-}
-
-.cont-2-1 {
-    height: 200px;
-}
-
-.cont-2-2 {
-    height: 300px;
-}
-
-.cont-2-3 {
-    height: 75px;
-}
-
-.cont-2-4 {
-    height: 100px
+.navbar {
+    background: var(--dark-olive);
+    z-index: 1;
 }
 
 .img1, .img2 {
@@ -104,10 +55,19 @@ body {
     border: none;
 }
 
-
-
 @media (min-width: 576px) {
+    body {
+        margin-top:105px;  
+    }
+
+    .cont-2-2 {
+        height: 300px;
+    }
+
     .img-container {
+        height: 100px;
+        width: 100px;
+        background-color: var(--light-beige);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -129,6 +89,10 @@ body {
 }
 
 @media (min-width: 992px) {
+    body {
+        margin-top: 100px;  
+    }
+
     .img-container {
         position: relative;
     }

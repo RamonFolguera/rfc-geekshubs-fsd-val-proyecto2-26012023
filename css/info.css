@@ -4,7 +4,8 @@ body {
 }
 
 .navbar {
-    background: var(--dark-olive) ;
+    background: var(--dark-olive);
+    z-index: 1;
 }
 
 .form-control {
@@ -21,17 +22,11 @@ body {
     color: var(--white);
 }
 
-.carousel-inner, .carousel-indicators, .carousel button {
-    z-index: -1;
-}
-
 .form-control {
     font-size: 1.2rem;
     border-bottom: 0;
     border-top: 5px;
 }
-
-
 
 a {
     text-decoration: none;

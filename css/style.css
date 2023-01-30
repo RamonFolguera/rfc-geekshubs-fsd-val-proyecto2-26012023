@@ -62,10 +62,7 @@ body video {
     text-decoration: none;
 }
 
-
-
 /* La class responsive se añado al topnav con JS cuando el usuario hace click en el icono. Esta class hace que los links del navbar aparezcan como un dropdown solo cuando se acciona el icono haciendo que se vea bien el navbar con el logo y el botón del idioma en cuanto a composición. */
-
 /* Colocación del icono */
 .topnav.responsive {
     position: relative;
@@ -186,7 +183,6 @@ body video {
     list-style: none;
 }
 
-
 @media (min-width: 992px) {
     .block-1, .block-2, .block-3 {
         width: 90vw;
@@ -290,7 +286,6 @@ body video {
     background-position: center;
     transition: width 2s, height 2s;
 }
-
 
 /* Efecto de agrandado de las imagenes en hover */
 .img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover {
