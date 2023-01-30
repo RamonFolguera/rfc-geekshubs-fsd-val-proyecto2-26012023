@@ -31,7 +31,7 @@ Uno de los condicionantes más importantes a la hora de diseñar la website es q
 
 |Página principal - xs| Página principal - md|
 |-|-|
-|En small screens y los links se esconden, apareciendo un icono botón que al apretar que despliega sólo: Restaurantes y reservas, A domicilio y Esencia Saona. El logo Saona se coloca en medio en primera linea, y en segunda los dos iconos. Las imágenes se colocan en columna y el fondo de éstas ocupa el ancho completo|En tamaño para ipad, los elementos van ajustandose en tamaño. Algunas veces se escalan otras se colocan en una mejor disposición en su espacio, manteniendo las proporciones y sin colapsar o montarse unos encima de otros. Todavía podemos ver el navbar totalmente desplegado como en pantallas más grandes, pero sin espacio entre los links y completamente centrados|
+|En small screens los links se esconden, apareciendo un icono botón que al apretar que despliega sólo: Restaurantes y reservas, A domicilio y Esencia Saona. El logo Saona se coloca en medio en primera linea, y en segunda los dos iconos. Las imágenes se colocan en columna y el fondo de éstas ocupa el ancho completo|En tamaño para ipad, los elementos van ajustandose en tamaño. Algunas veces se escalan otras se colocan en una mejor disposición en su espacio, manteniendo las proporciones y sin colapsar o montarse unos encima de otros. Todavía podemos ver el navbar totalmente desplegado como en pantallas más grandes, pero sin espacio entre los links y completamente centrados|
 |![image](./img/readme/main-navbar-movil.JPG)|![image](./img/readme/main-ipad.JPG)|
 
 
