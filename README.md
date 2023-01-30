@@ -32,33 +32,51 @@ Uno de los condicionantes más importantes a la hora de diseñar la website es q
 
 |Página principal - lg|
 |-|
-|La página principal se compone del Header donde podemos ver un video presentación y la barra de navegación. A continuación se divide en otras 3 secciones y finaliza con el footer. Las imágenes aumentan de tamaño cuando pasas el ratón por encima creando un dinamismo a la página para hacerla más interesante. También cuando pasas el ratón por los links: Ver restaurante, Hacer pedido y Saber más, la flechita se mueve hacia la derecha.|
-|![image](https://user-images.githubusercontent.com/53578007/215538729-91e57b2c-2be4-4394-a7b9-257a8f609882.png)|
-|![image](https://user-images.githubusercontent.com/53578007/215538729-91e57b2c-2be4-4394-a7b9-257a8f609882.png)|
-![image](https://user-images.githubusercontent.com/53578007/215538729-91e57b2c-2be4-4394-a7b9-257a8f609882.png)|
-![image](https://user-images.githubusercontent.com/53578007/215538729-91e57b2c-2be4-4394-a7b9-257a8f609882.png)|
+|La página principal se compone del Header donde podemos ver un video presentación y la barra de navegación. A continuación se divide en otras 3 secciones y finaliza con el footer. Las imágenes aumentan de tamaño cuando pasas el ratón por encima creando un dinamismo a la página para hacerla más interesante. También cuando pasas el ratón por los links: Ver restaurante, Hacer pedido y Saber más, la flechita se mueve hacia la derecha. El fondo de la barra de navegación cambia de transparente a color cuando hacemos scroll más allá del video header para facilitar la lectura en el resto de la página.|
+|![image](./img/readme/VideoHeaderMain.JPG)|
+|![image](./img/readme/mainsection1.JPG)|
+|![image](./img/readme/mainsection2.JPG)|
+![image](./img/readme/mainsection3.JPG)|
 
 |Página principal - xs| Página principal - md|
 |-|-|
-|La barra de navegación colapsa para small screens y el menú de la navegación se esconde, apareciendo un icono botón que al apretar despliega sólo los links: Restaurantes y reservas, A domicilio y Esencia Saona, los cuales considero los más importantes. Además el logo Saona se coloca en medio en primera linea, y en segunda los dos iconos. Además, las imágenes se colocan en columna y el fondo de éstas ocupa el ancho completo||
+|En small screens y los links se esconden, apareciendo un icono botón que al apretar que despliega sólo: Restaurantes y reservas, A domicilio y Esencia Saona. El logo Saona se coloca en medio en primera linea, y en segunda los dos iconos. Las imágenes se colocan en columna y el fondo de éstas ocupa el ancho completo|En tamaño para ipad, los elementos van ajustandose en tamaño. Algunas veces se escalan otras se colocan en una mejor disposición en su espacio, manteniendo las proporciones y sin colapsar o montarse unos encima de otros. Todavía podemos ver el navbar totalmente desplegado como en pantallas más grandes, pero sin espacio entre los links y completamente centrados|
+|![image](./img/readme/main-navbar-movil.JPG)|![image](./img/readme/main-ipad.JPG)|
 
 
+|Página de los restaurantes|
+|-|
+|En esta página podemos ver una selección de restaurantes de la compañia, con links a la ficha de información de cada uno (Ver restaurante), y link a google maps de su ubicación (Cómo llegar). Todavía no hemos creado página de reservas.|
+|![image](https://user-images.githubusercontent.com/53578007/215543986-9d46925b-c4f2-4563-b417-8a7ace783ac0.png)|
 
-
-
-![image](https://user-images.githubusercontent.com/53578007/215538871-e8415722-4b81-4ed5-93b0-cdf6108ad224.png)|
-
-
-|Página de los restaurantes|Página del menu|Página en construcción|
+|Página de Saona Gran Vía|Página de Saona Alameda|Página de Saona La Virgen|
 |-|-|-|
-|![image](https://user-images.githubusercontent.com/53578007/215539131-104e0338-cdd5-414b-9a0e-5122c438749b.png)|![image](https://user-images.githubusercontent.com/53578007/215539731-e20c05ae-db8e-4b05-abbc-9880c25ad4d1.png)|![image](https://user-images.githubusercontent.com/53578007/215540606-a0694485-ddd8-4340-8d44-7ce271243770.png)
+|![image](https://user-images.githubusercontent.com/53578007/215544067-fc248fce-146c-408d-ac3d-76862d01206d.png)|![image](https://user-images.githubusercontent.com/53578007/215544178-d27b47fc-1dfb-4be9-8c63-55b8be5f161f.png)|![image](https://user-images.githubusercontent.com/53578007/215544275-402b0d4d-9ff7-4446-a363-7c7e8bc4a7fb.png)|
+
+|Ejemplo página con la información de cada restaurante|
+|-|
+|Aquí podemos ver un carousel con las fotos del local en particular. Un botón que pone CARTA que nos lleva al menú del restaurante. Links de Cómo llegar que nos lleva a Google Maps, y Pedir a domicilio con Glovo, que nos lleva a la página de globo. Además añadimos la info del restaurante, un calendario para la fecha de reserva que todavía no está funcional y un mapa interactivo de Google maps.|
+|![image](https://user-images.githubusercontent.com/53578007/215544067-fc248fce-146c-408d-ac3d-76862d01206d.png)|
+
+|Página con el menú del día|
+|-|
+|En esta página tenemos una sección de presentación con dos imagenes de cabezera.|
+|![image](./img/readme/menu%20cabecera.JPG)|
+|A continuación una lista de platos para picar con sus precios. Los apuntes en letra más pequeña desaparecen en small screens y el tamaño de las palabras más grandes se reduce para caber perfectamente en el formato móvil.|
+|![image](https://user-images.githubusercontent.com/53578007/215539731-e20c05ae-db8e-4b05-abbc-9880c25ad4d1.png)|
+|Las dos secciones siguientes son los entrantes y principales. Los primeros con un carousel y los siguientes con los elementos card, ambos del boostrap.|
+|![image](./img/readme/menuCarousel.JPG)|
+|![image](https://user-images.githubusercontent.com/53578007/215543802-090ceeaa-9007-456d-b628-668a8d725454.png)|
+
+|Páginas en construcción.|
+|-|
+|Por último, aunque no menos importante. Todas los links que no contienen una página todavía nos dirigirán a la página de la siguiente captura que indica que la página está todavía en construcción. He añadido el navbar y el footer para que el usuario pueda volver fácilmente a las demás páginas que sí funcionan.|
+|![image](https://user-images.githubusercontent.com/53578007/215540606-a0694485-ddd8-4340-8d44-7ce271243770.png)|
 
 
-![image](https://user-images.githubusercontent.com/53578007/215543802-090ceeaa-9007-456d-b628-668a8d725454.png)
-![image](https://user-images.githubusercontent.com/53578007/215543986-9d46925b-c4f2-4563-b417-8a7ace783ac0.png)
-![image](https://user-images.githubusercontent.com/53578007/215544067-fc248fce-146c-408d-ac3d-76862d01206d.png)
-![image](https://user-images.githubusercontent.com/53578007/215544178-d27b47fc-1dfb-4be9-8c63-55b8be5f161f.png)
-![image](https://user-images.githubusercontent.com/53578007/215544275-402b0d4d-9ff7-4446-a363-7c7e8bc4a7fb.png)
+
+
+
 
 
 
