@@ -26,7 +26,7 @@ Uno de los condicionantes más importantes a la hora de diseñar la website es q
 ### Capturas de pantalla y detalles de las páginas creadas
 |Página principal - lg|
 |-|
-|La página principal se compone del Header donde podemos ver un video presentación y la barra de navegación. A continuación se divide en otras 3 secciones y finaliza con el footer. Las imágenes aumentan de tamaño cuando pasas el ratón por encima creando un dinamismo a la página para hacerla más interesante. También cuando pasas el ratón por los links: Ver restaurante, Hacer pedido y Saber más, la flechita se mueve hacia la derecha. El fondo de la barra de navegación cambia de transparente a color cuando hacemos scroll más allá del video header para facilitar la lectura en el resto de la página.|
+|La página principal se compone del Header donde podemos ver un video presentación y la barra de navegación. A continuación se divide en otras 3 secciones y finaliza con el footer. Las imágenes aumentan de tamaño cuando pasas el ratón por encima creando un dinamismo a la página para hacerla más interesante. También cuando pasas el ratón por los links: Ver restaurante, Hacer pedido y Saber más, la flechita se mueve hacia la derecha. El fondo de la barra de navegación cambia de transparente a color cuando hacemos scroll más allá del video header para facilitar la lectura en el resto de la página. El footer contiene links de redes sociales enlazados a los correspondientes perfiles públicos del restaurante. |
 |![image](./img/readme/index.png)|
 
 |Página principal - xs| Página principal - md|
