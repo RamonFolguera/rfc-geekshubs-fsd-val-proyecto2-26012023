@@ -7,7 +7,7 @@ body {
     z-index: 1;
 }
 
-.img1, .img2 {
+.img7, .img8 {
     height: 50%;
     width: 100%;
     transition: width 2s, height 2s;
@@ -33,13 +33,6 @@ body {
     font-size: 0.9rem;
 }
 
-.nuevo {
-    background-color: var(--light-beige);
-    border-radius: 50%;
-    height: 75px;
-    width: 75px;
-}
-
 .carousel-caption {
     background-color: rgba(207, 207, 207, 0.5);
     border-radius: 20px;
@@ -55,6 +48,8 @@ body {
     border: none;
 }
 
+
+
 @media (min-width: 576px) {
     body {
         margin-top:105px;  
@@ -65,8 +60,7 @@ body {
     }
 
     .img-container {
-        height: 100px;
-        width: 100px;
+        width: 80vw;
         background-color: var(--light-beige);
         display: flex;
         justify-content: center;
@@ -97,22 +91,22 @@ body {
         position: relative;
     }
 
-    .img1 {
+    .img7 {
         height: 300px;
         width: 400px;
         position: absolute;
-        top: 250px;
-        left: 800px;
+        top: 220px;
+        left: 650px;
     }
 
-    .img2 {
+    .img8 {
         height: 450px;
         width: 550px;
         position: absolute;
-        top: 0;
-        left: 300px;
+        top: 30px;
+        left: 175px;
     }
-
+    
     .cont-2-2 {
         height: 550px;
     }

@@ -1,0 +1,16 @@
+body {
+    margin-top: 175px;
+}
+
+.navbar {
+    background: var(--dark-olive);
+    z-index: 1;
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
