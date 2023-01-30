@@ -1,14 +1,13 @@
 # Proyecto 2 - Carta Restaurante Digital 
 
-![image](https://user-images.githubusercontent.com/53578007/215535351-a7a2b680-e6c5-488f-b07a-b6bc0a081286.png)
-
 Read this English: [English](README_EN.md) 
+
 
 ##### Tabla de contenidos
 
 - [Descripción](#descripción)
   - [El reto](#el-reto)
-  - [Screenshot](#screenshot)
+  - [Capturas de pantalla](#capturas-pantalla)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
