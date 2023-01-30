@@ -46,7 +46,7 @@ Uno de los condicionantes más importantes a la hora de diseñar la website es q
 
 |Ejemplo página con la información de cada restaurante|
 |-|
-|Aquí podemos ver un carousel con las fotos del local en particular. Un botón que pone CARTA que nos lleva al menú del restaurante. Links de Cómo llegar que nos lleva a Google Maps, y Pedir a domicilio con Glovo, que nos lleva a la página de globo. Además añadimos la info del restaurante, un calendario para la fecha de reserva que todavía no está funcional y un mapa interactivo de Google maps.|
+|Aquí podemos ver un carousel con las fotos del local en particular. Un botón que pone CARTA que nos lleva al menú del restaurante. Links de Cómo llegar que nos lleva a Google Maps, y Pedir a domicilio con Glovo, que nos lleva a la página de Glovo. Además añadimos la info del restaurante, un calendario para la fecha de reserva que todavía no está funcional y un mapa interactivo de Google maps.|
 |![image](https://user-images.githubusercontent.com/53578007/215544067-fc248fce-146c-408d-ac3d-76862d01206d.png)|
 
 |Página con el menú del día|
